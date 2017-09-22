@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Exo:100,300,400,600" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script src="https://use.fontawesome.com/ebdf5c28bc.js"></script>
+        <title>Orçamento Mensal</title>
+    </head>
+    <body>
+        <!--INÍCIO DO CABEÇALHO-->
+        <div class="header">
+            <div class="orcamento">
+                <div class="orcamento__titulo">
+                    Orçamento do mês
+                </div>
+                
+                <div class="orcamento__valor">0,000.00</div>
+                
+                <div class="orcamento__receita clearfix">
+                    <div class="orcamento__receita--texto">Receita</div>
+                    <div class="right">
+                        <div class="orcamento__receita--valor">0,000.00</div>
+                        <div class="orcamento__receita--porcentagem">&nbsp;</div>
+                    </div>
+                </div>
+                
+                <div class="orcamento__despesa clearfix">
+                    <div class="orcamento__despesa--texto">Despesa</div>
+                    <div class="right clearfix">
+                        <div class="orcamento__despesa--valor">0,000.00</div>
+                        <div class="orcamento__despesa--porcentagem">0%</div>
+                    </div>
+                </div>
+            </div>
+                    <a href="#" class="arrow-down">
+                        <i class="fa fa-angle-down fa-5x"></i>
+                    </a href="#">
+            </div>
+        </div>
+        <!--FINAL CABEÇALHO-->
+         <!-- INICIO CORPO DO SISTEMA-->
+        <div class="bottom">
+            <div class="add">
+                <!--INICIO CONTAINER DE INCLUSÃO DE ITENS-->
+                <div class="add__container">
+                    <select class="add__tipo">
+                        <option value="rec" selected>Receita</option>
+                        <option value="des">Despesa</option>
+                    </select>
+                    <input type="text" class="add__descricao" placeholder="Adicione novo Item">
+                    <input type="number" class="add__valor" placeholder="Valor">
+                    <button class="add__btn"><i class="fa fa-check-circle-o"></i></button>
+                </div>
+                <!--FINAL CONTAINER DE INCLUSÃO DE ITENS-->
+            </div>
+            <!--INICIO CONTAINER DE VISUALIZAÇÃO-->
+            <div class="container clearfix">
+                <div class="receita">
+                    <h2 class="receita__titulo">Receita</h2>
+                    
+                    <div class="receita__lista">
+                       
+                    </div>
+                </div>
+                
+                <div class="despesa">
+                    <h2 class="despesa__titulo">Despesa</h2>
+                    
+                    <div class="despesa__lista">
+                       
+                    </div>
+                </div>
+            </div>
+            <!--FINAL CONTAINER DE VISUALIZAÇÃO-->
+        </div>
+        <!--FINAL CORPO DO SISTEMA-->
+        <!--INICIO CABEÇALHO-->
+        <div class="rodape">
+            <p>&copy; Orçamento Mensal - 2017</p>     
+        </div>
+        <!--FINAL CABEÇALHO-->
+        <script src="/js/script.js"></script>
+    </body>
+</html>
