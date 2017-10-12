@@ -22,13 +22,15 @@ body {
 }
 
 p {
-    color: #29B6F6;
+    color: #5C6BC0;
     text-align: center;
 }
 
 .right { float: right; }
 .red { color: #FF5049 !important; }
-.red-focus:focus { border: 1px solid #FF5049 !important; }
+.red-focus:focus { border: 2px solid #FF5049 !important; }
+.add__red-bottom { border-bottom: 2px solid #FF5049 !important; }
+.btn__cor { color: #FF5049; }
 
 /*HEADER */
 
@@ -79,7 +81,7 @@ p {
 
 .orcamento__receita {
     margin-bottom: 10px;
-    background-color: #29B6F6;
+    background-color: #9CCC65;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -92,7 +94,7 @@ p {
 .orcamento__despesa--texto {
     float: left;
     font-size: 13px;
-    color: #212121;
+    color: #fff;
     margin-top: 2px;
 }
 
@@ -136,7 +138,7 @@ p {
 /*FORMULARIO*/
 .add {
     padding: 14px;
-    border-bottom: 3px solid #29B6F6;
+    border-bottom: 3px solid #9CCC65;;
     background-color: #212121;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -147,7 +149,7 @@ p {
 }
 
 .add__tipo {
-    width: 100px;
+    width: 115px;
     border: 1px solid #e7e7e7;
     height: 44px;
     font-size: 18px;
@@ -180,7 +182,7 @@ p {
     font-size: 35px;
     background: none;
     border: none;
-    color: #29B6F6;
+    color: #9CCC65;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
@@ -194,7 +196,7 @@ p {
 .add__descricao:focus,
 .add__valor:focus {
     outline: none;
-    border: 2px solid #29B6F6;
+    border: 2px solid #9CCC65
 }
 
 .add__btn:focus { outline: none; }
@@ -225,7 +227,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.receita__titulo { color: #29B6F6; }
+.receita__titulo { color: #9CCC65; }
 .despesa__titulo { color: #EF5350; }
 
 .item {
@@ -253,13 +255,13 @@ h2 {
     background-color: #FFDAD9;
     padding: 3px;
     border-radius: 3px;
-    width: 32px;
+    width: 35px;
     text-align: center;
 }
 
 .receita .item__valor,
 .receita .item__delete--btn {
-    color: #29B6F6;
+    color: #9CCC65;
 }
 
 .despesa .item__valor,
@@ -281,7 +283,8 @@ h2 {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
-    display: none;
+    padding-left:  10px;
+    /* display: none; */
 }
 
 .item__delete--btn:focus { outline: none; }
@@ -304,7 +307,7 @@ h2 {
 
 .rodape {
         padding: 26px;
-        border-top: 3px solid #29B6F6;
+        border-top: 3px solid #5C6BC0;
         background-color: #212121;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
