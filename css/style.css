@@ -132,7 +132,6 @@ p {
     left: 50%;
 }
 
-
 /*CORPO */
 
 /*FORMULARIO*/
@@ -284,7 +283,6 @@ h2 {
     vertical-align: middle;
     line-height: 1;
     padding-left:  10px;
-    /* display: none; */
 }
 
 .item__delete--btn:focus { outline: none; }
