@@ -6,14 +6,14 @@
         <link href="https://fonts.googleapis.com/css?family=Exo:100,300,400,600" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <script src="https://use.fontawesome.com/ebdf5c28bc.js"></script>
-        <title>Orçamento Mensal</title>
+        <title>OrçamentoApp</title>
     </head>
     <body>
         <!--INÍCIO DO CABEÇALHO-->
         <div class="header">
             <div class="orcamento">
                 <div class="orcamento__titulo">
-                    Orçamento do mês
+                    Saldo do Mês de <span class="orcamento__titulo--mes">%mes%</span>
                 </div>
                 <div class="orcamento__valor">0,000.00</div>
                 <div class="orcamento__receita clearfix">
@@ -44,11 +44,11 @@
                 <div class="add__container">
                     <select class="add__tipo">
                         <option value="rec" selected>Receita</option>
-                        <option value="des">Despesa</option>
+                        <option value="desp">Despesa</option>
                     </select>
-                    <input type="text" class="add__descricao" placeholder="Adicione novo Item">
+                    <input type="text" class="add__descricao" placeholder="Adicionar novo Item">
                     <input type="number" class="add__valor" placeholder="Valor">
-                    <button class="add__btn"><i class="fa fa-check-circle-o"></i></button>
+                    <button class="add__btn"><i class="fa fa-arrow-right btn"></i></button>
                 </div>
                 <!--FINAL CONTAINER DE INCLUSÃO DE ITENS-->
             </div>
@@ -73,6 +73,6 @@
             <p>&copy; OrçamentoAPP - 2017</p>     
         </div>
         <!--FINAL CABEÇALHO-->
-        <script src="/js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
